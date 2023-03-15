@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+	real x,y
+
+escreva("digite x:")
+leia(x)
+escreva("digite y:")
+leia(y)	
+
+se(x>y){
+	escreva("X é maior que Y")
+}
+senao se(x<y){
+	escreva("Y é maior que X")
+}
+senao{
+	escreva("X e Y são iguais")
+}
+	}
+}

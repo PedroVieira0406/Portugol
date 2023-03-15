@@ -1,0 +1,63 @@
+programa 
+{
+	funcao inicio()
+	{
+		real v1,v2,v3
+		escreva("digite o primeiro valor:")
+		leia(v1)
+		escreva("digite o segundo valor:")
+		leia(v2)
+		escreva("digite o terceiro valor:")
+		leia(v3)
+		
+		se(v1>=v2)
+			{
+				se(v1>=v3)
+				{
+				escreva(v1)
+				escreva(" é o maior valor. ")
+					se(v2>=v3)
+						{
+						escreva(v3)
+						escreva(" é o menor valor.")
+						}
+					senao
+						{
+						escreva(v2)
+						escreva(" é o menor valor.")
+						}
+				}
+				senao
+				{
+					escreva(v3)
+					escreva(" é o maior valor. ")
+				}
+			}
+		senao
+		{
+			se(v2>=v3)
+			{
+			escreva(v2)
+			escreva(" é o maior valor. ")
+				se(v1>=v3)
+				{
+					escreva(v3)
+					escreva(" é o menor valor.")
+				}
+				senao
+				{
+					escreva(v1)
+					escreva(" é o menor valor")
+				}
+		}	
+			senao
+			{
+				escreva(v3)
+				escreva(" é o maior valor. ")
+				escreva(v1)
+				escreva(" é o menor valor")
+			}
+		}
+	}
+}
+
